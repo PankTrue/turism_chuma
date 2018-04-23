@@ -1,0 +1,15 @@
+C:\Users\Pank\Desktop\chuma_turism\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Main.accdb
+C:\Users\Pank\Desktop\chuma_turism\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Pank\Desktop\chuma_turism\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Pank\Desktop\chuma_turism\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Pank\Desktop\chuma_turism\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Turirm.csprojResolveAssemblyReference.cache
+C:\Users\Pank\Desktop\chuma_turism\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AdminPanel.resources
+C:\Users\Pank\Desktop\chuma_turism\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Pank\Desktop\chuma_turism\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ManagerPanel.resources
+C:\Users\Pank\Desktop\chuma_turism\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Pank\Desktop\chuma_turism\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Reservation.resources
+C:\Users\Pank\Desktop\chuma_turism\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TableEditor.resources
+C:\Users\Pank\Desktop\chuma_turism\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Turirm.csproj.GenerateResource.cache
+C:\Users\Pank\Desktop\chuma_turism\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Turirm.csproj.CoreCompileInputs.cache
+C:\Users\Pank\Desktop\chuma_turism\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Pank\Desktop\chuma_turism\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

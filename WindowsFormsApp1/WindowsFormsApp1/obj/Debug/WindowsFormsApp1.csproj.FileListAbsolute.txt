@@ -1,0 +1,42 @@
+F:\БД\Курсовик\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+F:\БД\Курсовик\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+F:\БД\Курсовик\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+F:\БД\Курсовик\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+F:\БД\Курсовик\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+F:\БД\Курсовик\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+F:\БД\Курсовик\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+F:\БД\Курсовик\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+F:\БД\Курсовик\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+F:\БД\Курсовик\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+F:\БД\Курсовик\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+F:\БД\Курсовик\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\БД\Курсовик\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\БД\Курсовик\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\БД\Курсовик\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Chrus\OneDrive\Рабочий стол\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Main.accdb
+C:\Users\Chrus\OneDrive\Рабочий стол\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Chrus\OneDrive\Рабочий стол\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Chrus\OneDrive\Рабочий стол\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Chrus\OneDrive\Рабочий стол\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\Chrus\OneDrive\Рабочий стол\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Chrus\OneDrive\Рабочий стол\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Chrus\OneDrive\Рабочий стол\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Chrus\OneDrive\Рабочий стол\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Chrus\OneDrive\Рабочий стол\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Chrus\OneDrive\Рабочий стол\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Chrus\OneDrive\Рабочий стол\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AdminPanel.resources
+C:\Users\Chrus\OneDrive\Рабочий стол\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TableEditor.resources
+C:\Users\Pank\Desktop\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Main.accdb
+C:\Users\Pank\Desktop\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Pank\Desktop\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Pank\Desktop\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Pank\Desktop\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\Pank\Desktop\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AdminPanel.resources
+C:\Users\Pank\Desktop\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Pank\Desktop\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Pank\Desktop\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TableEditor.resources
+C:\Users\Pank\Desktop\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Pank\Desktop\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Pank\Desktop\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Pank\Desktop\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Pank\Desktop\Копия прилож\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ManagerPanel.resources
