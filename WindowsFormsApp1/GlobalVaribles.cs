@@ -10,5 +10,7 @@ namespace WindowsFormsApp1
     public static class GlobalVariables
     {
         public static  OleDbConnection connection = new OleDbConnection();
+        public static int current_user;
+
     }
 }

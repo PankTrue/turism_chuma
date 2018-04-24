@@ -54,9 +54,10 @@ namespace WindowsFormsApp1
             GlobalVariables.connection.Close();
         }
 
-        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+        private void dataGridView1_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        { 
+            Form form = new Reservation(Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString()));
+            form.Show();
         }
     }
 }

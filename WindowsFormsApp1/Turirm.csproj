@@ -44,17 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddTurist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTurist.Designer.cs">
+      <DependentUpon>AddTurist.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminPanel.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AdminPanel.Designer.cs">
       <DependentUpon>AdminPanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Auth.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Auth.Designer.cs">
+      <DependentUpon>Auth.cs</DependentUpon>
     </Compile>
     <Compile Include="GlobalVaribles.cs" />
     <Compile Include="MainDataSet.Designer.cs">
@@ -82,11 +88,14 @@
     <Compile Include="TableEditor.Designer.cs">
       <DependentUpon>TableEditor.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddTurist.resx">
+      <DependentUpon>AddTurist.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminPanel.resx">
       <DependentUpon>AdminPanel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Auth.resx">
+      <DependentUpon>Auth.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManagerPanel.resx">
       <DependentUpon>ManagerPanel.cs</DependentUpon>

@@ -11,9 +11,9 @@ using System.Data.OleDb;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class Auth : Form
     {
-        public Form1()
+        public Auth()
         {
             InitializeComponent();
         }
@@ -42,6 +42,7 @@ namespace WindowsFormsApp1
 
             if (reader.Read())
             {
+                GlobalVariables.current_user = Convert.ToInt32(reader["Код сотрудника"]);
                 switch (reader["Группа"].ToString())
                 {
                     case "Менеджер" : panel = new ManagerPanel(); break;  
