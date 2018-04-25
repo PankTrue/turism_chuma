@@ -62,6 +62,12 @@
     <Compile Include="Auth.Designer.cs">
       <DependentUpon>Auth.cs</DependentUpon>
     </Compile>
+    <Compile Include="FinnalyReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinnalyReservation.Designer.cs">
+      <DependentUpon>FinnalyReservation.cs</DependentUpon>
+    </Compile>
     <Compile Include="GlobalVaribles.cs" />
     <Compile Include="MainDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -96,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Auth.resx">
       <DependentUpon>Auth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinnalyReservation.resx">
+      <DependentUpon>FinnalyReservation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManagerPanel.resx">
       <DependentUpon>ManagerPanel.cs</DependentUpon>

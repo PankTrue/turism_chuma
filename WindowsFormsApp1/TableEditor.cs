@@ -172,7 +172,7 @@ namespace WindowsFormsApp1
             // {
             GlobalVariables.connection.Open();
             var sqlCmd = GlobalVariables.connection.CreateCommand();
-            sqlCmd.CommandText = "select * from " + tableName + " where 1=0";  // No data wanted, only schema
+            sqlCmd.CommandText = "select * from " + tableName + " where 1=0"; 
             sqlCmd.CommandType = CommandType.Text;
 
             var sqlDR = sqlCmd.ExecuteReader();

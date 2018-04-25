@@ -14,14 +14,15 @@ namespace WindowsFormsApp1
         [STAThread]
         static void Main()
         {
-
             GlobalVariables.connection.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=.\Main.accdb;
             Persist security Info = false;";
 
+            Form auth = new Auth();
+            auth.ShowDialog();
+            
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Auth());
-
+            //Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(GlobalVariables.mainForm);
         }
     }
 }

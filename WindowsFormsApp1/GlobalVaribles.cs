@@ -4,6 +4,7 @@ using System.Data.OleDb;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
@@ -11,6 +12,6 @@ namespace WindowsFormsApp1
     {
         public static  OleDbConnection connection = new OleDbConnection();
         public static int current_user;
-
+        public static Form mainForm;
     }
 }

@@ -38,26 +38,23 @@ namespace WindowsFormsApp1
                 command.Connection = GlobalVariables.connection;
                 command.CommandText = $"SELECT * FROM Сотрудники WHERE Логин='{textBox1.Text}' and Пароль='{textBox2.Text}'";
                 OleDbDataReader reader = command.ExecuteReader();
-            Form panel = new Form();
-
             if (reader.Read())
             {
                 GlobalVariables.current_user = Convert.ToInt32(reader["Код сотрудника"]);
                 switch (reader["Группа"].ToString())
                 {
-                    case "Менеджер" : panel = new ManagerPanel(); break;  
-                    case "Администратор" : panel = new AdminPanel(); break;
+                    case "Менеджер" : GlobalVariables.mainForm = new ManagerPanel(); break;  
+                    case "Администратор" : GlobalVariables.mainForm = new AdminPanel(); break;
                     default: MessageBox.Show("Группа не найдена"); GlobalVariables.connection.Close(); return;
                 }
-
-             MessageBox.Show("Добро пожаловать");
+                MessageBox.Show("Добро пожаловать");
+                this.Close();
             }
             else
             {
                 MessageBox.Show("Неверный логин или пароль");
             }
             GlobalVariables.connection.Close();
-            panel.Show();
         }
     }
 }

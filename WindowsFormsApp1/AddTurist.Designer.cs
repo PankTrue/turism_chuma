@@ -43,6 +43,13 @@
             this.button1 = new System.Windows.Forms.Button();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label13 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button2 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
@@ -127,7 +134,7 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(15, 227);
+            this.textBox7.Location = new System.Drawing.Point(169, 106);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 20);
             this.textBox7.TabIndex = 11;
@@ -135,7 +142,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(12, 211);
+            this.label8.Location = new System.Drawing.Point(166, 90);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(86, 13);
             this.label8.TabIndex = 10;
@@ -143,17 +150,17 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(227, 410);
+            this.button1.Location = new System.Drawing.Point(139, 298);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 12;
-            this.button1.Text = "Apply";
+            this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(15, 266);
+            this.textBox8.Location = new System.Drawing.Point(169, 145);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 20);
             this.textBox8.TabIndex = 14;
@@ -161,15 +168,75 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(12, 250);
+            this.label9.Location = new System.Drawing.Point(166, 129);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(67, 13);
             this.label9.TabIndex = 13;
             this.label9.Text = "Виза номер";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(166, 10);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(86, 13);
+            this.label12.TabIndex = 15;
+            this.label12.Text = "Дата рождения";
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(169, 25);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker2.TabIndex = 16;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(166, 50);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(27, 13);
+            this.label13.TabIndex = 17;
+            this.label13.Text = "Пол";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Мужской",
+            "Женский"});
+            this.comboBox1.Location = new System.Drawing.Point(169, 66);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 19;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(399, 25);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(483, 261);
+            this.dataGridView1.TabIndex = 20;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(791, 311);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 21;
+            this.button2.Text = "Apply";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // AddTurist
             // 
-            this.ClientSize = new System.Drawing.Size(571, 469);
+            this.ClientSize = new System.Drawing.Size(894, 346);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.button1);
@@ -186,6 +253,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label3);
             this.Name = "AddTurist";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -212,5 +280,14 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button2;
     }
 }
