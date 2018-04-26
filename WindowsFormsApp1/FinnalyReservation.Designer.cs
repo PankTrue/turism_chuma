@@ -37,6 +37,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label3
@@ -61,18 +62,18 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(28, 84);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 13);
+            this.label5.Size = new System.Drawing.Size(96, 13);
             this.label5.TabIndex = 2;
-            this.label5.Text = "Кол-во людей:";
+            this.label5.Text = "Кол-во взрослых:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(28, 113);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(79, 13);
+            this.label6.Size = new System.Drawing.Size(65, 13);
             this.label6.TabIndex = 3;
-            this.label6.Text = "Кол-во людей:";
+            this.label6.Text = "Стоимость:";
             // 
             // label7
             // 
@@ -118,9 +119,19 @@
             this.label11.TabIndex = 8;
             this.label11.Text = "label11";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(28, 55);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(76, 13);
+            this.label12.TabIndex = 9;
+            this.label12.Text = "Кол-во детей:";
+            // 
             // FinnalyReservation
             // 
             this.ClientSize = new System.Drawing.Size(585, 404);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -150,5 +161,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
     }
 }
