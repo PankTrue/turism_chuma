@@ -38,11 +38,13 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.mainDataSet1 = new WindowsFormsApp1.MainDataSet();
+            ((System.ComponentModel.ISupportInitialize)(this.mainDataSet1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(279, 361);
+            this.button1.Location = new System.Drawing.Point(98, 235);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -128,11 +130,16 @@
             this.checkBox3.Text = "Нужна виза";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
+            // mainDataSet1
+            // 
+            this.mainDataSet1.DataSetName = "MainDataSet";
+            this.mainDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // Reservation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(687, 396);
+            this.ClientSize = new System.Drawing.Size(262, 269);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
@@ -145,6 +152,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Reservation";
             this.Text = "Reservation";
+            ((System.ComponentModel.ISupportInitialize)(this.mainDataSet1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -162,5 +170,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox checkBox3;
+        private MainDataSet mainDataSet1;
     }
 }

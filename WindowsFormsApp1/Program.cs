@@ -14,6 +14,7 @@ namespace WindowsFormsApp1
         [STAThread]
         static void Main()
         {
+           
             GlobalVariables.connection.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=.\Main.accdb;
             Persist security Info = false;";
 

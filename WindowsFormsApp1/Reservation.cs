@@ -78,12 +78,13 @@ namespace WindowsFormsApp1
                 return;
             }
             int bronya_id = Convert.ToInt32(reader_1["Код брони"]);
-            var form = new AddTurist(bronya_id);
+            var form = new AddTurist(bronya_id,Convert.ToInt32(id_marshrut));
             form.Show();
             
 
             GlobalVariables.connection.Close();
             
         }
+
     }
 }
